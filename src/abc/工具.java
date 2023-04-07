@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package learn;
+package abc;
 
 import java.util.Scanner;
 
@@ -22,34 +22,12 @@ public class 工具 {
         return keyword;
     }
 
-    /*public static int 輸入整數資料(String 訊息) {
+    public static int 輸入整數資料(String 訊息) {
         int keyword;
         System.out.println(訊息);
         keyword = sc.nextInt();
         return keyword;
-    }*/
-      public static int 輸入整數資料(String 訊息) {
-        String keywordstr;
-        int keyword;
-        System.out.println(訊息);
-        //keyword = sc.nextInt();   // 避免輸入字串錯誤, 
-        keywordstr = sc.next();     // 先用字串接
-        if(判斷是否為數字(keywordstr)){
-            keyword=Integer.parseInt(keywordstr);
-             return keyword;
-        } else {
-             return -1;
-        }        
     }
-         public static boolean 判斷是否為數字(String 字串) {
-        for (int i = 字串.length(); --i >= 0;) {
-            if (!Character.isDigit(字串.charAt(i))) {
-                return false;
-            }
-        }
-        return true;
-    }
-
 
     public static int 加總(int a, int b) {
         int c;

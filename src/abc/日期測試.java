@@ -1,26 +1,32 @@
+package abc;
+
+
+import abc.日期_1;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package abc;
 
 /**
  *
  * @author user
  */
-public class abc {
+public class 日期測試 {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        //System.out.println("歡迎進入");
-        
-        //def.pppp();
-        //hij.uuu();
-        //測試.qqq();
-        //num.zzz();
-        票劵計算練習.跑流程();
-                
+        // TODO code application logic here
+        日期_1 = d;
+        d = new 日期_1();
+        日期_1.顯示資料
                 
         
-       }
+        
+        
+    }
     
 }
