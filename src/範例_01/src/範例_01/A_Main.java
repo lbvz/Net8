@@ -19,22 +19,17 @@ public class A_Main {
         //範例_03.機算();
         //範例_04.跑程式();
         //溫度轉換.跑程式();
-        BMI.跑程式();
+        //BMI.跑程式();
         //比較.比較顯示();
         //學校成績_1.跑程式();
         //學校成績.跑程式();
         //銀行_3.跑();
         // 猜密碼.跑();
-      
-        
-        
-    
 
-    /**
-     * @param args the command line arguments
-     */
-    
+        /**
+         * @param args the command line arguments
+         */
         // TODO code application logic here
     }
-    
+
 }
