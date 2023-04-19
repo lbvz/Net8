@@ -34,7 +34,6 @@ public class 工具 {
         成績_1("請輸入英文成績:");
         成績_2("請輸入數學成績:");
         加總(x,y);
-        
 
     }
     public static int 成績_1(String 請輸入螢幕上要顯示的訊息文字){
@@ -53,9 +52,9 @@ public class 工具 {
         return y;
     
     }
-    public static int 加總(int x,int y){
+    public static int 加總(int 傳入整數1,int 傳入整數2){
         int z;
-        z = x + y;
+        z = 傳入整數1 + 傳入整數2;
         return z;
         
     }
