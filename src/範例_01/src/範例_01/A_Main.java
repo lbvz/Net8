@@ -9,7 +9,7 @@ package 範例_01;
  *
  * @author USER
  */
-public class 範例_01 {
+public class A_Main {
 
     public static void main(String[] args) {
         //System.out.println("i love java");
