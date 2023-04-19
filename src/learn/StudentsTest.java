@@ -16,7 +16,7 @@ public class StudentsTest {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Students a;
+       /* Students a;
         Students b;
         a = new Students();
         a.名字 = "Tom";
@@ -27,11 +27,22 @@ public class StudentsTest {
         b.名字 = "Jane";
         b.英文成績 = 88;
         b.數學成績 = 89;
-        b.show();
+        b.show();*/
+        客戶範本.客戶顯示();
+        
+        
+        
+        
+        
+        
+        
+        
         
                 
                 
                  
     }
+
+
     
 }
