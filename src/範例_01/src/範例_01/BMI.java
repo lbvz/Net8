@@ -16,7 +16,7 @@ public class BMI {
     public static double bmi;
 
     public static void 設定初值() {
-        System.out.println("-----設定初值-----");
+        System.out.println("------設定初值------");
         cm = 175.0;
         m = cm / 100;
         kg = 65;
