@@ -24,7 +24,7 @@ public class BMI {
     }
 
     public static void 顯示資料() {
-        System.out.println("========顯示資料========");
+        System.out.println("=========顯示資料=========");
         System.out.println("身高:" + cm);
         System.out.println("體重:" + kg);
         System.out.println("BMI:" + bmi);
