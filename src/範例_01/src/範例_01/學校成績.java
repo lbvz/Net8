@@ -17,7 +17,7 @@ public class 學校成績 {
     public static double y;//平均
 
     public static void 設初值() {
-        System.out.println("---設初值---");
+        System.out.println("----設初值----");
         eng = (int) (Math.random() * 101);
         mr = (int) (Math.random() * 101);
 
