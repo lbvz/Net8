@@ -16,13 +16,13 @@ public class 猜密碼 {
    public static void 初值(){
        密碼 = 3;
        你猜 = (int)(Math.random()*4);
-       System.out.println("==============初值=============");
+       System.out.println("==============初值==============");
        
        
    }
    public static void 你猜(){
        
-       System.out.println("==============你猜=============");
+       System.out.println("==============你猜==============");
        System.out.println("密碼 ==> 0 ~ 3");
        System.out.println("你猜的答案 : " + 你猜);
        System.out.println("密碼答案 : " + 密碼);
