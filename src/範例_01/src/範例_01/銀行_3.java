@@ -15,9 +15,6 @@ public class 銀行_3 {
     
     
     public static void 初值(){
-      
-        
-        
         System.out.println("帳戶 : " + 帳戶名稱);  
         System.out.println("餘額 : " + 帳戶餘額 +"元");
         //System.out.println("存款 : " + 存款+"元");
@@ -27,10 +24,10 @@ public class 銀行_3 {
     public static void 存提款(){
         int 存款= (int)(Math.random()*1001);
         int 提款=(int)(Math.random()*1001);
-           int 存提=(int)(Math.random()*3);
+        int 存提=(int)(Math.random()*3);
         
         System.out.println("============================");
-        if(存提>=1){
+        if(存提>1){
             System.out.println("存款 : " + 存款+"元");
             System.out.println("餘額 : " + (帳戶餘額 + 存款)+"元");
         }
