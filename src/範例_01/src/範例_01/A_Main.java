@@ -23,8 +23,9 @@ public class A_Main {
         //比較.比較顯示();
         //學校成績_1.跑程式();
         //學校成績.跑程式();
-        //銀行_3.跑();
+        //銀行.跑();
         // 猜密碼.跑();
+        工具.跑();
 
         /**
          * @param args the command line arguments
