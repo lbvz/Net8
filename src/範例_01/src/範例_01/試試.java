@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author user
  */
-public class 工具 {
+public class 試試 {
 
     private static Scanner sc = new Scanner (System.in);
     
@@ -22,7 +22,7 @@ public class 工具 {
         return x;
 }
 
-    public static int 輸入成績v2(String 請輸入訊息文字) {
+    public static int 輸入成績(String 請輸入訊息文字) {
         System.out.println("請輸入" + 請輸入訊息文字 + "成績");
         int x;
         x = sc.nextInt();
@@ -50,9 +50,9 @@ public class 工具 {
     
      public static void 跑() {
         //輸入成績();
-        int x = 輸入成績v2("英文");
-        int y = 輸入成績v2("數學");
-        int z = 輸入成績v2("國文");
+        int x = 輸入成績("英文");
+        int y = 輸入成績("數學");
+        int z = 輸入成績("國文");
         int a = 加總(x,y,z);
         double b = 平均(x, y, z);
         
