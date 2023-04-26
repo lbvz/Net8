@@ -26,9 +26,8 @@ public class A_Main {
         //銀行.跑();
         // 猜密碼.跑();
         //工具.跑();
-         //試試.跑();
-         測試工具.測試輸入();
-         
+         試試.跑();
+        //工具.跑();
                  
         /**
          * @param args the command line arguments

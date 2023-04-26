@@ -17,15 +17,15 @@ public class 試試 {
     
      public static int 輸入成績() {
         System.out.println("請輸入成績 : ");
-        int x;
-        x = sc.nextInt();
+        int x = sc.nextInt();
+        
         return x;
 }
 
     public static int 輸入成績(String 請輸入訊息文字) {
         System.out.println("請輸入" + 請輸入訊息文字 + "成績");
-        int x;
-        x = sc.nextInt();
+        int x = sc.nextInt();
+        
         System.out.println(請輸入訊息文字 + "成績 : " + x + " 分 ");
         System.out.println("-------------------------------------");
         return x;
@@ -33,16 +33,16 @@ public class 試試 {
     }
 
     public static int 加總(int 傳入整數1, int 傳入整數2, int 傳入整數3 ){
-        int x;
-        x = 傳入整數1 + 傳入整數2 + 傳入整數3;
+        int x = 傳入整數1 + 傳入整數2 + 傳入整數3;
+        
         System.out.println("加總 : " + x + " 分");
         return x;
 
     }
     
     public static double 平均(int 傳入整數1, int 傳入整數2,int 傳入整數3){
-        double x;
-        x = (傳入整數1 + 傳入整數2 + 傳入整數3) / 3;
+        double x = (傳入整數1 + 傳入整數2 + 傳入整數3) / 3;
+        
         System.out.println("平均 : " + x + " 分");
         return x;
         
